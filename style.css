@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro");
+
 body {
 	background: #eee;
 	padding: 40px 0px;
 }
+
 .card {
 	width: 400px;
 	margin: 0px auto;
@@ -29,6 +31,7 @@ body {
 	position: relative;
 	overflow: hidden;
 }
+
 .card-image img {
 	width: 100%;
 	position: absolute;
@@ -38,6 +41,7 @@ body {
 	transition-property: filter width;
 	transition-duration: .3s;
 }
+
 .card-body {
 	text-align: center;
 	padding: 15px 20px;
@@ -46,10 +50,12 @@ body {
 .card-date {
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .card-title,
 .card-exceprt {
 	font-family: 'Playfair Display', serif;
 }
+
 .card-date,
 .card-title {
 	text-align: left;
@@ -69,10 +75,6 @@ button {
 		background-color:white; /* Green */
 		border: none;
 		color: blue;
-		/* padding: 16px 32px;
-		text-align: center;
-		text-decoration: none;
-		display: inline-block; */
 		font-size: 16px;
 		margin: 4px 2px;
 		transition-duration: 0.4s;
