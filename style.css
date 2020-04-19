@@ -9,6 +9,7 @@ body {
 .flex-container{
 	display:inline-flex;
 	flex-wrap: wrap;
+	margin-left: 100px;
 	}	  
 
 .card {
@@ -88,3 +89,4 @@ button {
 		cursor: pointer;
 		font-size: 10px;
 		font-family: 'Arial', serif;
+}
