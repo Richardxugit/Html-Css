@@ -5,7 +5,7 @@ body {
 	padding: 40px 0px;
 }
 
-
+/* 这个命名可以不加flex */
 .flex-container{
 	display:inline-flex;
 	flex-wrap: wrap;
@@ -23,7 +23,7 @@ body {
 .card:hover .card-image img {
 	width: 130%;
 }
-
+/* 尽量用BEM的命名方法 */
 .card-date{
 	display:flex;
 	justify-content:space-between;
@@ -76,7 +76,7 @@ body {
   display:flex;
   justify-content:space-between;
 }
-
+/* 这个可以用一个class来帮所以的card做 */
 #more,#more2, #more3,#more4,#more5,#more6 {display: none;}
 
 button {

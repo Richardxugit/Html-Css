@@ -10,9 +10,14 @@
 </head>
 
 <body>
+    <!-- 总体做的还是不错的，可以考虑让这几个整体居中一下（最外面的container居中）
+    另外最上面的那个bar可以参照demo写一下，练习一下多种不同高度大小的元素排列问题
+    class命名尽量用BEM的方法
+    还有一些细节可以完善一下，尽量做的跟demo一模一样，因为找工作的时候看到是pixel perfect -->
     <div class="flex-container">
         <div class="card">
             <div class="card-body">
+                <!-- 这一行很重要，需要里面所有的元素都垂直居中,加一点下边距 -->
                 <div class="card-date">
                     <div>
                         <time>
@@ -43,6 +48,7 @@
                             ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros
                             non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
                     </p>
+                    <!-- js的部分最好都放在最下面，不推荐在中间些，也最好不要分开，而且几个card是可以公用一套代码的，现在这个有重复 -->
                     <script>
                         function myFunction() {
                             var dots = document.getElementById("dots");
