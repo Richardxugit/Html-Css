@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro");
+
+body {
+	background: #eee;
+	padding: 40px 0px;
+}
+
+
+.flex-container{
+	display:inline-flex;
+	flex-wrap: wrap;
+	margin-left: 100px;
+	}	  
+
+.card {
+	width: 400px;
+	margin: 10px;
+	background-color: white;
+	box-shadow: 0px 5px 20px #555;
+	box-sizing: border-box;
+}
+
+.card:hover .card-image img {
+	width: 130%;
+}
+
+.card-date{
+	display:flex;
+	justify-content:space-between;
+}
+
+.more {
+  height:30px;
+  width:10px;
+}
+
+.card-image {
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+}
+
+.card-image img {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition-property: filter width;
+	transition-duration: .3s;
+}
+
+.card-body {
+	text-align: center;
+	padding: 15px 20px;
+	box-sizing: border-box;
+}
+.card-date {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-title,
+.card-exceprt {
+	font-family: 'Playfair Display', serif;
+}
+
+.card-date,
+.card-title {
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.footer {
+  display:flex;
+  justify-content:space-between;
+}
+
+#more,#more2, #more3,#more4,#more5,#more6 {display: none;}
+
+button {
+		background-color:white; /* Green */
+		border: none;
+		color: blue;
+		font-size: 16px;
+		margin: 4px 2px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+		font-size: 10px;
+		font-family: 'Arial', serif;
+}
